@@ -1,7 +1,7 @@
 {
   "Restaurants": {
     "-NkF_dqyroONEdMqgfgC": {
-      "Daten": {
+      "daten": {
         "hausnr": 0,
         "id": "-NkF_dqyroONEdMqgfgC",
         "name": "Default Restaurant",
@@ -10,48 +10,48 @@
         "speisekarte": false,
         "strasse": "Strasse"
       },
-      "Speisekarte": {
+      "speisekarte": {
         "G1": {
-          "Allergien": {
-            "Gluten": false,
-            "Nüsse": true
+          "allergien": {
+            "gluten": false,
+            "nüsse": true
           },
-          "Gericht": "1",
-          "Preis": 1,
-          "Zutaten": {
-            "Eier": true,
-            "Fleisch": true,
-            "Milch": true
+          "gericht": "1",
+          "preis": 1,
+          "zutaten": {
+            "eier": true,
+            "fleisch": true,
+            "milch": true
           }
         },
         "G2": {
-          "Allergien": {
-            "Gluten": false,
-            "Nüsse": true
+          "allergien": {
+            "gluten": false,
+            "nüsse": true
           },
-          "Gericht": "2",
-          "Preis": 2,
-          "Zutaten": {
-            "Eier": true,
-            "Fleisch": true,
-            "Milch": true
+          "gericht": "2",
+          "preis": 2,
+          "zutaten": {
+            "eier": true,
+            "fleisch": true,
+            "milch": true
           }
         }
       },
-      "Tische": {
+      "tische": {
         "T1": {
-          "Bestellungen": {
+          "bestellungen": {
             "G1": 0,
             "G2": 1
           },
-          "Personen": 4
+          "personen": 4
         },
         "T2": {
-          "Bestellungen": {
+          "bestellungen": {
             "G1": 1,
             "G2": 0
           },
-          "Personen": 2
+          "personen": 2
         }
       }
     }
