@@ -1,0 +1,59 @@
+{
+  "Restaurants": {
+    "-NkF_dqyroONEdMqgfgC": {
+      "Daten": {
+        "hausnr": 0,
+        "id": "-NkF_dqyroONEdMqgfgC",
+        "name": "Default Restaurant",
+        "ort": "Ort",
+        "plz": 0,
+        "speisekarte": false,
+        "strasse": "Strasse"
+      },
+      "Speisekarte": {
+        "G1": {
+          "Allergien": {
+            "Gluten": false,
+            "Nüsse": true
+          },
+          "Gericht": "1",
+          "Preis": 1,
+          "Zutaten": {
+            "Eier": true,
+            "Fleisch": true,
+            "Milch": true
+          }
+        },
+        "G2": {
+          "Allergien": {
+            "Gluten": false,
+            "Nüsse": true
+          },
+          "Gericht": "2",
+          "Preis": 2,
+          "Zutaten": {
+            "Eier": true,
+            "Fleisch": true,
+            "Milch": true
+          }
+        }
+      },
+      "Tische": {
+        "T1": {
+          "Bestellungen": {
+            "G1": 0,
+            "G2": 1
+          },
+          "Personen": 4
+        },
+        "T2": {
+          "Bestellungen": {
+            "G1": 1,
+            "G2": 0
+          },
+          "Personen": 2
+        }
+      }
+    }
+  }
+}
