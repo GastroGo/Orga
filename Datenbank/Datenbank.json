@@ -1,36 +1,47 @@
 {
   "Restaurants": {
-    "-NkF_dqyroONEdMqgfgC": {
+    "-NnEe9pHqGgDIdtocR-d": {
       "daten": {
-        "hausnr": 0,
-        "id": "-NkF_dqyroONEdMqgfgC",
-        "name": "Default Restaurant",
-        "ort": "Ort",
-        "plz": 0,
+        "hausnr": 14,
+        "id": "-NnEe9pHqGgDIdtocR-d",
+        "name": "Kisten Racing",
+        "ort": "Ravensburg",
+        "plz": 88212,
         "speisekarte": false,
-        "strasse": "Strasse"
+        "strasse": "Oppeltshofer Weg",
+        "uid": "s7EDshIahef8KPbVjGU8jOeJKH02"
       },
       "speisekarte": {
-        "G1": {
-          "allergien": {
-            "gluten": false,
-            "nüsse": true
-          },
-          "gericht": "1",
-          "preis": 1,
+        "G001": {
+          "gericht": "Eis",
+          "preis": 2.5,
           "zutaten": {
             "eier": true,
             "fleisch": true,
             "milch": true
           }
         },
-        "G2": {
-          "allergien": {
-            "gluten": false,
-            "nüsse": true
-          },
-          "gericht": "2",
-          "preis": 2,
+        "G002": {
+          "gericht": "Joghurt",
+          "preis": 2.99,
+          "zutaten": {
+            "eier": true,
+            "fleisch": true,
+            "milch": true
+          }
+        },
+        "G003": {
+          "gericht": "Diamond Sword",
+          "preis": 88,
+          "zutaten": {
+            "eier": true,
+            "fleisch": true,
+            "milch": true
+          }
+        },
+        "G004": {
+          "gericht": "Silas hdf",
+          "preis": 123,
           "zutaten": {
             "eier": true,
             "fleisch": true,
@@ -39,20 +50,333 @@
         }
       },
       "tische": {
-        "T1": {
+        "T001": {
           "bestellungen": {
-            "G1": 0,
-            "G2": 1
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
           },
-          "personen": 4
+          "geschlosseneBestellungen": {
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
+          },
+          "personen": 0
         },
-        "T2": {
+        "T002": {
           "bestellungen": {
-            "G1": 1,
-            "G2": 0
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
           },
-          "personen": 2
+          "geschlosseneBestellungen": {
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
+          },
+          "personen": 0
         }
+      }
+    },
+    "-NnEfWiIDPlC1om8M-OP": {
+      "daten": {
+        "hausnr": 4,
+        "id": "-NnEfWiIDPlC1om8M-OP",
+        "name": "Zum Korn",
+        "ort": "Unterankenreute",
+        "plz": 88281,
+        "speisekarte": false,
+        "strasse": "Eifelweg",
+        "uid": "SnNlgTkSVGRqci7TFo2t5lnc5VH3"
+      },
+      "speisekarte": {
+        "G001": {
+          "gericht": "Maiskolben",
+          "preis": 5.55,
+          "zutaten": {
+            "eier": false,
+            "fleisch": false,
+            "milch": false
+          }
+        },
+        "G002": {
+          "gericht": "Korn",
+          "preis": 0.99,
+          "zutaten": {
+            "eier": false,
+            "fleisch": false,
+            "milch": false
+          }
+        },
+        "G003": {
+          "gericht": "Grain",
+          "preis": 0.98,
+          "zutaten": {
+            "eier": false,
+            "fleisch": false,
+            "milch": false
+          }
+        },
+        "G004": {
+          "gericht": "Grano",
+          "preis": 0.97,
+          "zutaten": {
+            "eier": false,
+            "fleisch": false,
+            "milch": false
+          }
+        }
+      },
+      "tische": {
+        "T001": {
+          "bestellungen": {
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
+          },
+          "geschlosseneBestellungen": {
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
+          },
+          "personen": 0
+        },
+        "T002": {
+          "bestellungen": {
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
+          },
+          "geschlosseneBestellungen": {
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
+          },
+          "personen": 0
+        }
+      }
+    },
+    "-NnEh8RJxypXUB1Fl2w5": {
+      "daten": {
+        "hausnr": 34,
+        "id": "-NnEh8RJxypXUB1Fl2w5",
+        "name": "Martins Ross",
+        "ort": "Horgenzell",
+        "plz": 88263,
+        "speisekarte": false,
+        "strasse": "Winterbach",
+        "uid": "ePCJTnbMwKUooBmH1KsBROiUubj1"
+      },
+      "speisekarte": {
+        "G001": {
+          "gericht": "Schnitzel",
+          "preis": 12.3,
+          "zutaten": {
+            "eier": false,
+            "fleisch": false,
+            "milch": false
+          }
+        },
+        "G002": {
+          "gericht": "Happy Meal",
+          "preis": 5.49,
+          "zutaten": {
+            "eier": false,
+            "fleisch": false,
+            "milch": false
+          }
+        },
+        "G003": {
+          "gericht": "Cocktail",
+          "preis": 7,
+          "zutaten": {
+            "eier": false,
+            "fleisch": false,
+            "milch": false
+          }
+        },
+        "G004": {
+          "gericht": "Krasser Wein",
+          "preis": 15,
+          "zutaten": {
+            "eier": false,
+            "fleisch": false,
+            "milch": false
+          }
+        }
+      },
+      "tische": {
+        "T001": {
+          "bestellungen": {
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
+          },
+          "geschlosseneBestellungen": {
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
+          },
+          "personen": 0
+        },
+        "T002": {
+          "bestellungen": {
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
+          },
+          "geschlosseneBestellungen": {
+            "G001": 0,
+            "G002": 0,
+            "G003": 0,
+            "G004": 0
+          },
+          "personen": 0
+        }
+      }
+    },
+    "-NnEiQYwmA8QT4M-9ZDZ": {
+      "daten": {
+        "hausnr": 16,
+        "id": "-NnEiQYwmA8QT4M-9ZDZ",
+        "name": "Totalschaden",
+        "ort": "Ravensburg",
+        "plz": 88213,
+        "speisekarte": false,
+        "strasse": "Gebhard-Fugel-Straße",
+        "uid": "e422uimTvyMso2pp0H9DHivCNAh1"
+      },
+      "speisekarte": {
+        "G001": {
+          "gericht": "Nuh uh",
+          "preis": 16.16,
+          "zutaten": {
+            "eier": false,
+            "fleisch": false,
+            "milch": false
+          }
+        },
+        "G002": {
+          "gericht": "Cartell (Spanisch)",
+          "preis": 5.55,
+          "zutaten": {
+            "eier": false,
+            "fleisch": false,
+            "milch": false
+          }
+        }
+      },
+      "tische": {
+        "T001": {
+          "bestellungen": {
+            "G001": 0,
+            "G002": 0
+          },
+          "geschlosseneBestellungen": {
+            "G001": 0,
+            "G002": 0
+          },
+          "personen": 0
+        },
+        "T002": {
+          "bestellungen": {
+            "G001": 0,
+            "G002": 0
+          },
+          "geschlosseneBestellungen": {
+            "G001": 0,
+            "G002": 0
+          },
+          "personen": 0
+        }
+      }
+    },
+    "-No1GxnHcFY-smpQPdGT": {
+      "daten": {
+        "hausnr": 1,
+        "id": "-No1GxnHcFY-smpQPdGT",
+        "name": "test",
+        "ort": "123",
+        "plz": 888,
+        "speisekarte": false,
+        "strasse": "1",
+        "uid": "DNzLoSAqt1aXn8XOECHg6X4nFRq2"
+      },
+      "speisekarte": {
+        "G001": {
+          "allergien": {
+            "gluten": false,
+            "nüsse": false
+          },
+          "gericht": "2",
+          "preis": 0,
+          "zutaten": {
+            "eier": true,
+            "fleisch": true,
+            "milch": true
+          }
+        }
+      },
+      "tische": {
+        "T001": {
+          "bestellungen": {
+            "G001": 0
+          },
+          "geschlosseneBestellungen": {
+            "G001": 0
+          },
+          "personen": 0
+        },
+        "T002": {
+          "bestellungen": {
+            "G001": 0
+          },
+          "geschlosseneBestellungen": {
+            "G001": 0
+          },
+          "personen": 0
+        }
+      }
+    }
+  },
+  "Schluessel": {
+    "-NnEe9pHqGgDIdtocR-d": {
+      "M001": {
+        "key": "7pIeiox1",
+        "name": "Silas"
+      },
+      "M002": {
+        "key": "rhr3IVkQ",
+        "name": "Flo"
+      },
+      "M003": {
+        "key": "YCcKGrdZ",
+        "name": "Martin "
+      },
+      "M004": {
+        "key": "QDcoT45v",
+        "name": "Lukas"
+      }
+    },
+    "-NnEh8RJxypXUB1Fl2w5": {
+      "M001": {
+        "key": "O8L4TKGw",
+        "name": "Silas Bruder"
+      },
+      "M002": {
+        "key": "BkVoWlD4",
+        "name": "Herr Mueller"
       }
     }
   }
